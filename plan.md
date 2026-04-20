@@ -128,13 +128,14 @@ Then expand to trades, real estate, etc.
 4. **No unnecessary fields** — License number is optional (some people don't want to store it)
 5. **Respects privacy** — License numbers stored encrypted, never shared
 
-## Key Decisions to Make
+## Key Decisions — RESOLVED
 
-- [ ] Self-hosted Supabase on Coolify vs Supabase Cloud (free tier)
-- [ ] Prisma vs Drizzle ORM
+- [x] **Database:** Self-hosted PostgreSQL on Coolify
+- [x] **ORM:** Drizzle (lightweight, SQL-like, fast)
+- [x] **Payments:** Stripe
+- [x] **Pricing:** Free tier (manual entry only) + Pro tier (auto-lookup, recommendations, documents, etc.)
 - [ ] Email provider (Resend vs Nodemailer)
-- [ ] File storage (S3-compatible via Coolify vs Supabase storage)
-- [ ] Payment provider (Stripe vs Lemon Squeezy)
+- [ ] File storage (S3-compatible via Coolify)
 
 ## Competitive Positioning
 

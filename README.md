@@ -45,8 +45,8 @@ A single place to:
 
 - **Frontend:** Next.js (React) as PWA
 - **Backend:** Next.js API routes + tRPC
-- **Database:** PostgreSQL (Supabase or self-hosted on Coolify)
-- **Auth:** Clerk (Google, Apple, email)
+- **Database:** PostgreSQL self-hosted on Coolify (Drizzle ORM)
+- **Auth:** Clerk (Google, Apple, email) — same account as other projects
 - **Hosting:** Coolify on Hetzner
 - **Mobile:** Capacitor wrapper for App Store / Play Store (later)
 - **Push Notifications:** Web Push + Firebase Cloud Messaging
